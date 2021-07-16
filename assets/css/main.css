@@ -1,0 +1,511 @@
+
+/* --------------------------------------
+
+  Media Queries
+-----------------------------------------*/
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+
+ .about{
+  padding-bottom:110px ;
+ }
+
+    .about .about-container2 {
+      display:none;
+      }  
+
+    .about .about-image1 {
+      
+      margin-right: 110px;
+      margin-left: 110px;
+      margin-bottom: 40px;
+     }
+
+     .about .main-title h3 {
+      font-size: 22px;
+
+    }
+    
+    .about .main-title h2 {
+      font-size: 40px;
+    
+    }
+
+    .contact .info-box p {
+      font-size: 13px;
+    
+    }
+  }
+
+
+  @media (max-width: 767.98px) {
+    .about .about-image1 {
+      margin-right: 80px;
+      margin-left: 80px;
+      margin-bottom: 40px;
+    }
+  }
+
+
+
+  @media (min-width: 991.98px) and (max-width: 1033px) {
+    .about .about-container1 {
+      display:none;
+    } 
+      .about .about-image1 {
+        margin-right: -80px;
+        margin-left: -80px;
+        margin-top:99px;
+        margin-bottom: 12px;
+      } 
+  }
+
+
+  @media (min-width: 1033px) and (max-width: 5567px) {
+    .about .about-container1 {
+    display:none;
+    }
+
+  }
+
+
+  @media (max-width: 575.98px){
+    .about .about-image1 {
+        margin: 0;
+        margin-bottom: 40px;
+        }
+    }
+    
+    
+ @media (min-width: 425px) and (max-width:5567px) {
+    #resume .resume-container {
+          display: none;
+          }
+      }
+    
+
+
+@media (min-width: 425px) and (max-width:767.8px) {
+  /*=========== Navbar ============*/
+ .nav-link {  
+	font-size: 14px;
+}
+
+  .navbar-toggler span {
+    background-color: #fff;
+  }
+
+ .navbar .navbar-nav > li {
+    border-top: 1px solid  #1f2233;
+    border-bottom: 1px solid  #1f2233;
+ }
+
+ .navbar-brand {
+    font-size: 28px;
+  } 
+
+ /*=========== About Me ============*/
+ .about{
+  padding-top: 75px;
+  padding-bottom:110px ;
+ }
+
+
+ .about .about-container2 {
+  display:none;
+}
+
+.about .main-title h3 {
+  margin-left:11px;
+  margin-top:-17px;
+  font-size: 20px;
+}
+
+.about .main-title h2 {
+ margin-top:-30px;
+ margin-left:11px;
+ font-size: 29px;
+}
+
+.about .about-info span i {
+  font-size: 24px; 
+}
+
+.about .about-info > p{
+  margin-left:7px;
+  margin-right:13px;
+  font-size: 14px;
+  margin-bottom:18px;
+}
+
+
+.about .about-info .main-btn {
+  font-size: 14px;
+}
+
+
+/*=========== Skills ============*/
+.skills{
+    padding-top: 80px;
+}
+
+.skills .main-title h3 {
+  font-size: 20px;
+}
+.skills .main-title h2 {
+  font-size: 29px;
+}
+
+.skills .progress-container h4 {
+    font-size: 14px;
+}
+  
+.skills .progress-container .percent {
+  font-size: 14px;
+}
+
+.skills .progress-container h4 {
+  font-size: 14px;
+}
+  
+  /*=========== Resume ============*/
+  .resume{
+    padding-top: 80px;
+  }
+  
+  .resume .main-title h3 {
+    font-size: 20px;
+    
+  }
+  .resume .main-title h2 {
+    font-size: 29px;
+  }
+
+
+  .timeline .timeline-heading h4 {
+    font-size:18px;
+  
+  }
+  .timeline .timeline-heading h4.subheading {
+    font-size:16px;
+  
+  }
+  .timeline .timeline-body li{
+    font-size:14px;
+
+  }
+  
+  .timeline .timeline-body > ul,
+  .timeline .timeline-body > p {
+    font-size:14px;
+    
+  }
+  /*=========== Portfolio ============*/
+  .portfolio{
+    padding-top: 80px;
+  }
+  
+  .portfolio .main-title h3 {
+    font-size: 20px;
+  
+  }
+  .portfolio .main-title h2 {
+    font-size: 29px;
+  }
+
+
+  .portfolio .post .post-content .post-title h4 {
+    font-size: 16px;
+  }
+  
+  .portfolio .post .post-content .post-text p {
+    font-size: 14px;
+
+  }
+
+  .portfolio .post .post-content .post-more {
+    font-size: 14px;
+  }
+ /*=========== Certificate ============*/
+ .certificate{
+  padding-top: 80px;
+
+}
+
+.certificate .main-title h3 {
+  font-size: 20px;
+}
+
+.certificate .main-title h2 {
+  font-size: 29px;
+}
+
+ .block-website__step-flow-box-left-item-number { 
+    font-size: 17px;
+  }
+  
+
+  .certificate .certificate-caption h4 {
+    font-size: 16px;
+  }
+  
+  .certificate .certificate-caption p {
+    font-size: 14px;
+  }
+  
+  .certificate .certificate-caption .post-mores{
+    font-size: 14px;
+  }
+
+
+ /*=========== Contact ============*/
+ .contact {
+  padding-top: 80px;
+}
+
+  .contact .main-title h3 {
+    font-size: 20px;
+  }
+  
+  .contact .main-title h2 {
+    font-size: 29px;
+  }
+  
+  
+  .contact .info-box i.fa {
+    font-size: 45px;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 17px;
+  }
+  
+  .contact .info-box p {
+    font-size: 14px;
+  }
+
+ /*=========== Footer ============*/
+ .footer .copyright p {
+  font-size:14px;
+   }
+}   
+
+
+
+@media (min-width: 319px) and (max-width:424px) {
+
+ /*=========== Navbar ============*/
+ .nav-link {  
+	font-size: 14px;
+}
+
+  .navbar-toggler span {
+    background-color: #fff;
+  }
+
+ .navbar .navbar-nav > li {
+    border-top: 1px solid #24283d;
+    border-bottom: 1px solid #24283d;
+ }
+
+ .navbar-brand {
+    font-size: 28px;
+  } 
+
+
+ /*=========== About Me ============*/
+ .about{
+  padding-top: 65px;
+  padding-bottom: 128px;
+ }
+
+ .about .about-container2 {
+  display:none;
+}
+
+ .about .about-image1 {
+  margin: 0;
+  margin-bottom: 6px;
+}
+
+
+.about .main-title h3 {
+  margin-left:11px;
+  margin-top:13px;
+  font-size: 19px;
+}
+
+.about .main-title h2 {
+ margin-top:-15px;
+ margin-left:11px;
+ font-size: 25px;
+}
+
+.about .about-info span i {
+  font-size: 24px; 
+}
+
+.about .about-info > p{
+  font-size: 14px;
+  margin-bottom:18px;
+}
+
+.about .about-info .main-btn {
+  font-size: 14px;
+}
+
+/*=========== Skills ============*/
+.skills{
+ padding-top: 80px;
+}
+
+.skills .main-title h3 {
+  font-size: 19px;
+}
+.skills .main-title h2 {
+  font-size: 25px;
+}
+  .skills .progress-container h4 {
+   font-size: 14px;
+}
+  
+.skills .progress-container .percent {
+  font-size: 14px;
+}
+
+.skills .progress-container h4 {
+  font-size: 14px;
+}
+
+  /*=========== Resume ============*/
+  .resume{
+    padding-top: 80px;
+  }
+  
+  .resume .main-title h3 {
+    font-size: 19px; 
+  }
+  .resume .main-title h2 {
+    font-size: 25px;
+  }
+
+.timeline{
+  display: none;
+}
+
+
+.resume .resume-title-experience {
+  font-size: 18px;
+}
+
+.resume .resume-title-education {
+  font-size: 18px;
+}
+
+.resume .resume-item h4 {
+  font-size: 17px;
+}
+
+.resume .resume-item span {
+  font-size: 15px;  
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+}
+
+.resume .resume-item p {
+  font-size: 14px;
+}
+
+.resume .resume-item ul li {
+  font-size:14px;
+}
+
+  /*=========== Portfolio ============*/
+  .portfolio{
+    padding-top: 80px;
+  }
+  
+  .portfolio .main-title h3 {
+    font-size: 19px;
+  
+  }
+  .portfolio .main-title h2 {
+    font-size: 25px;
+  }
+
+  .portfolio .post .post-content .post-title h4 {
+    font-size: 16px;
+  }
+  
+  .portfolio .post .post-content .post-text p {
+    font-size: 14px;
+
+  }
+
+  .portfolio .post .post-content .post-more {
+    font-size: 14px;
+  }
+ /*=========== Certificate ============*/
+ .certificate{
+  padding-top: 80px;
+}
+
+.certificate .main-title h3 {
+  font-size: 19px;
+}
+.certificate .main-title h2 {
+  font-size: 25px;
+}
+
+ .block-website__step-flow-box-left-item-number { 
+    font-size: 17px;
+  }
+  
+  .certificate .certificate-caption h4 {
+    font-size: 16px;
+  }
+  
+  .certificate .certificate-caption p {
+    font-size: 14px;
+  }
+  
+  .certificate .certificate-caption .post-mores{
+    font-size: 14px;
+  }
+ /*=========== Contact ============*/
+ .contact {
+  padding-top: 80px;
+}
+
+.contact .main-title h3 {
+  font-size: 19px;
+}
+
+.contact .main-title h2 {
+  font-size: 25px;
+}
+
+
+.contact .info-box i.fa {
+  font-size: 45px;
+
+}
+
+.contact .info-box h3 {
+  font-size: 17px;
+}
+
+.contact .info-box p {
+  font-size: 14px;
+}
+
+ /*=========== Footer ============*/
+ .footer .copyright p {
+  font-size:14px;
+  }
+}
+
+
+
